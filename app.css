@@ -1,0 +1,167 @@
+/* COLORS */
+/* Primary Color */
+/* Base:#2b2bff  */
+
+/* Secondary Color */
+/* Base: darkvoilet */
+
+/* Tertiary Color  */
+/* Base: #464040 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    background-color: #0f172a;
+    color: white;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+}
+
+
+ul {
+    list-style: none;
+}
+
+h2 {
+    font-size: 70px;
+    color: white;
+}
+
+
+a:hover {
+    color: hsl(282, 100%, 21%);
+}
+
+:hover {
+    cursor: pointer;
+}
+
+/* HEADER SECTION */
+.header {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 40px;
+    font-size: 24px;
+}
+.main-header-Fortune, .main-header-Emmanuel {
+    color: white;
+}
+.construct-styling {
+    background-color: darkviolet;
+    color: white;
+    padding: 5px;
+}
+
+/* NAVBAR */
+.NAVBAR {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 25px;
+    margin-bottom: 100px;
+}
+
+.home-navbar {
+    color: white;
+    margin-right: 30px;
+}
+
+.blog-navbar {
+    color: white;
+     margin-right: 30px;
+    
+}
+.article-navbar {
+    color: white;
+    margin-right: 30px;
+}
+.services-navbar {
+    color: white;
+       margin-right: 30px;
+}
+.projects-navbar {
+    color: white;
+}
+
+
+/* ABOUT ME SECTION */
+.about-me {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 150px;
+}
+.text {
+    flex: 1;
+}
+
+.image:hover {
+    transform: scale(1.05, 1.05);
+    transition-duration: 500ms;
+}
+.my-picture {
+    width: 450px;
+    height: 450px;
+    border-radius: 50px;
+    box-shadow: 2px -2px 3px;
+    border: 2px solid darkviolet;
+}
+.purple-text {
+    color: darkviolet;
+    margin-bottom: 5px;
+}
+.big-letter {
+    font-size: 120px;
+    font-weight: bold;
+}
+.about-me-h3 {
+    font-size: 25px;
+    margin-bottom: 15px;
+   color: rgb(155, 152, 152);
+}
+.color-white {
+    color: white;
+}
+.about-me-paragraph {
+    font-size: 15px;
+    margin-bottom: 50px;
+ color: rgb(155, 152, 152);
+}
+.connect-with-me {
+    color: darkviolet;
+    margin-bottom: 10px;
+}
+
+/* FEATURES SECTION */
+.features-container {
+    margin-bottom: 500px;
+    margin-top: 300px;
+}
+.features-mainheading {
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+}
+.features-paragraph {
+    font-size: 20px;
+}
+
+/* FOOTER SECTION */
+.footer {
+    margin-top: 500px;
+    text-align: center;
+}
+.social-media-icons {
+    margin-bottom: 20px;
+}
+.X-handle {
+    color: darkviolet;
+}
