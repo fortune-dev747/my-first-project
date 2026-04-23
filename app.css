@@ -102,7 +102,9 @@ a:hover {
 .text {
     flex: 1;
 }
-
+.list-icons {
+    display: flex;
+}
 .image:hover {
     transform: scale(1.05, 1.05);
     transition-duration: 500ms;
